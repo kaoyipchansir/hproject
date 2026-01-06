@@ -1,0 +1,23 @@
+{
+  "name": "health-api",
+  "version": "1.0.0",
+  "description": "Health API with Cloudinary Image Upload",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": ["mongodb", "nodejs", "express", "cloudinary", "wechat"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^2.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
